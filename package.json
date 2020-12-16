@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "this is ecommerse web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index_server.js"
+  },
+  "keywords": [
+    "front",
+    "back",
+    "project"
+  ],
+  "author": "vindresh singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
+  }
+}
